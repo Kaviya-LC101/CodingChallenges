@@ -13,3 +13,4 @@ const input=require('readline-sync');
 let newStr=input.question("\nPlease Enter the String to be reversed : ");
 reverseStr=firstReverseStr(newStr);
 console.log(`\nReverse string of the word "${newStr}" is "${reverseStr}""`);
+
